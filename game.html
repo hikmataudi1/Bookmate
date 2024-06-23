@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"rel="stylesheet"integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"crossorigin="anonymous"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet" />
+    <title>My Webpage</title>
+    
+  </head>
+  <body>
+
+    <nav class="navbar">
+      <a class="button-80" role="button"  href="index.html" style="max-width:100px">BookMate</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse show" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+          <li class="nav-item">
+              <a href="index.html" class="nav-link "  >Home</a>
+              </li>
+          <li class="nav-item">
+              <a href="favs.html" class="nav-link "  >Favorites</a>
+              </li>
+          <li class="nav-item">
+              <a href="readlist.html" class="nav-link" >Readlist</a>
+              </li>
+          <li class="nav-item">
+              <a href="game.html" class="nav-link active" >Game</a>
+              </li>
+          <li class="nav-item">
+                <a href="quote.html" class="nav-link">Quote generator</a>
+            </li>    
+      </ul>
+      </div>
+  </nav>
+
+  <br>
+    <div class="container1">
+
+      <h3><b>  Literary Brain Teaser!</b></h3>
+      <hr>
+      <h4>🔍Dive into the Bookish Trivia Adventure! <br>We'll test your literature knowledge with some trivia questions</h4>
+
+
+      <br>
+      <div class="question-container">
+        <h3>Who is the author of "The Hobbit" ?</h3>
+        <div class="answer-options">
+          <button class="btn button-80 ansbtn" id="ans3" value="3"> J.R.R. Tolkien</button>
+          <button class="btn button-80 ansbtn" id="ans2" value="2"> C.S. Lewis</button>
+          <button class="btn button-80 ansbtn" id="ans1" value="1">J.K. Rowling</button>
+        </div>
+        <div id="mcFeedback" class="feedback"></div>
+      </div>
+
+      <hr>
+
+      <div class="question-container">
+        <h3>In which Shakespeare play does a character famously utter the words "To be, or not to be"</h3>
+        <div class="answer-options">
+          <button class="btn button-80 ansbtn" id="ans1" value="1">Hamlet</button>
+          <button class="btn button-80 ansbtn" id="ans2" value="2">Romeo and Juliet</button>
+          <button class="btn button-80 ansbtn" id="ans3" value="3">Macbeth</button>
+        </div>
+        <div id="mcFeedback" class="feedback"></div>
+      </div>
+
+      <hr>
+
+      <div class="question-container">
+        <h3>Who is considered one of the greatest poets in Arab literature, known for his epic poem "The Mu'allaqat"?</h3>
+        <div class="answer-options">
+        <button class="btn button-80 ansbtn" id="ans3" value="3">Ibn Khaldun</button>
+        <button class="btn button-80 ansbtn" id="ans2" value="2"> Abu Nuwas</button>
+        <button class="btn button-80 ansbtn" id="ans1" value="1"> Imru' al-Qais</button>
+      </div>
+      <div id="mcFeedback" class="feedback"></div>
+    </div>
+
+    <hr>
+
+    <div class="question-container">
+        <h3>"Crime and Punishment" was written by</h3>
+        <div class="answer-options">
+        <button class="btn button-80 ansbtn" id="ans2" value="2">Leo Tolstoy</button>
+        <button class="btn  button-80 ansbtn" id="ans1" value="1"> Fyodor Dostoevsky </button>
+        <button class="btn button-80 ansbtn" id="ans3" value="3"> Anton Chekhov </button>
+      </div>
+      <div id="mcFeedback" class="feedback"></div>
+    </div>
+
+
+
+<hr>
+    <div class="question-container">
+        <h3>Who is often referred to as the "father of modern Arabic and Lebanese poetry" and is known for his collection "The Broken Wings"?</h3>
+        <div class="answer-options">
+        <button class="btn button-80 ansbtn" id="ans2" value="2">Amin Maalouf</button>
+        <button class="btn button-80 ansbtn" id="ans1" value="1">Gibran Khalil Gibran</button>
+        <button class="btn button-80 ansbtn" id="ans3" value="3">Elias Khoury</button>
+      </div>
+      <div id="mcFeedback" class="feedback"></div>
+    </div>
+
+    </div>
+
+    <b><p style="font-family:Cormorant Garamond">Credits: This project is made by Hikmat Audi.</p></b>
+
+    <script src="game.js"></script>
+  </body>
+</html>

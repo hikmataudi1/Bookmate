@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Serif+Display:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Serif+Display:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Serif+Display:ital@0;1&family=Khand:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+body {
+  background-image: url("bpb.png");
+    color: #212529;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: center;
+
+    box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+  }
+
+
+.header {
+
+    background-color:#f5f5f5;
+    background-image: url("aristo.png");
+    background-repeat: no-repeat;
+    background-size:330px 280px;
+    border-bottom: 3px solid #556b2f;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+    box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+    color: #556b2f;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+@media (max-width:800px)
+{
+  body{
+    font-size:18px;
+  }
+
+  .container1{
+    font-size:18px;
+
+  }
+  .form{
+    font-size:18px;
+  }
+
+}
+
+h3{
+  font-family: "Khand", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align:left;
+}
+h4{
+  font-family: "Changa", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align:left;
+}
+
+@media(max-width:1000px)
+{
+  .header{
+   text-align:right;
+  }
+}
+
+  @media only screen and (max-width:550px)
+{
+  .header{
+    background-image:none;
+    text-align:center;
+  }
+  .container1 *{
+    font-size:16px
+  }
+  .img{
+    width: 20px;
+    height:auto;
+
+  }
+
+}
+
+input{
+  width: 10%;
+}
+
+
+.card-text{
+  font-size:30px;
+}
+
+
+.navbar-toggler{
+    background-color:#f5f5f5;
+    border:2px solid #556b2f;
+
+}
+
+
+input[type=text]{
+  transition: width 0.4s ease-in-out;
+  width:180px;
+  max-width: calc(100% - 20px);
+  box-sizing: border-box;
+}
+input[type=text]:focus{
+  width: calc(100% - 20px);
+
+}
+
+input[type=password]{
+  transition: width 0.4s ease-in-out;
+  width:180px;
+  max-width:100%;
+  box-sizing: border-box;
+}
+input[type=password]:focus{
+  width: calc(100% - 20px);
+
+
+
+}
+ .nav{
+    color:#d2b48c;
+ }
+
+ .navbar-nav{
+    display:flex;
+    flex-direction:row;
+    gap:50px;
+    border-bottom: 3px solid #556b2f;
+
+}
+.nav-link{
+    color:#556b2f;
+    padding: 0.5rem;
+    text-align: center;
+    font-size:25px;
+    font-family: "Khand", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+.nav-link:hover{
+  font-weight:990;
+}
+.navbar{
+    border-bottom: 3px solid #556b2f;
+
+
+}
+
+
+.form{
+    text-align: left;
+    width: 500px;
+
+}
+p{
+  font-family: "Changa", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+
+.button-80 {
+  align-items: center;
+  background-color: #f5f5f5;
+  border: 2px solid #556b2f;
+  border-radius: 12px;
+  box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+  box-sizing: border-box;
+  color: #556b2f;
+  cursor: pointer;
+  display: inline-flex;
+  flex: 1 1 auto;
+  font-family: "Changa", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s,-webkit-box-shadow .2s;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-80:hover {
+  box-shadow: #556b2f 0 0 0 3px, transparent 0 0 0 0;
+  color:#556b2f;
+}
+
+.container1{
+    background-color:#f5f5dc;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+    border: 5px solid #556b2f;
+    border-radius:10px;
+    width:80%;
+    justify-content: center;
+    padding: 2rem 2rem;
+    margin: 0 auto;
+    margin-bottom:15px;
+    overflow: hidden;
+    display:inline-block
+
+}
+.navbar-brand{
+  color:#556b2f;
+  border: 1px solid #556b2f;
+  background-color:#f5f5f5;
+  padding: 0.5rem 0.5rem;
+  border-radius: 9px;
+}
+
+.desc-card{
+    padding: 0.5rem 0.5rem;
+
+
+}
+
+.card{
+  background-color:#f5f5dc;
+}
+.btn{
+  margin: 0.7rem;
+  display: inline-block;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+
+.table {
+  max-width: 500px;
+  border-collapse: separate;
+  border: 3px solid #556b2f;
+  border-radius: 10px;
+}
+
+.table th, .table td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 2px solid #ccc;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  font-family: "Changa", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding: 10px;
+  text-align: left;
+}
+
+.table th , .table tr:hover {
+  background-color: #ffffff;
+}
+.table-container {
+  overflow-x: auto;
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+img{
+  border: 3px solid #556b2f;
+  border-radius: 50%;
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+}
+
+hr{
+  height: 2px;
+  background-color: black;
+}
+.form-label{
+  font-family: "Khand", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align:left;
+}
+
+#quote{
+  font-family: "Changa", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.btnContainer{
+  display: inline-block;
+}
